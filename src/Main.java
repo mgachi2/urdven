@@ -72,7 +72,7 @@ public class Main {
         System.out.println("\"What kind of things?\" (1)\n" + "\"Oh, I'm just here for a night or two, just passing through...\" (2)\n" + "_________________________________________");
         int response = scanner.nextInt();
         while (response != 1 && response != 2) {
-            System.out.println("You might need to level up your reading skill...");
+            System.out.println("You might need to level up your reading skill..." );
             response = scanner.nextInt();
         }
         if (response == 1) {
