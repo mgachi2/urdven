@@ -84,5 +84,13 @@ public class Main {
             System.out.println("The man's expression becomes ridden with a mixture of ire and sorrow. \"Hooded men comin' into town, promisin' they'll leave in the morn... \nThen the next day, someone's dead" +
             " and they're gone...\" He sheds a tear. \"My beloved was murdered a few weeks ago.\"");
         }
+        if (response == 2) {
+            System.out.println("\"Oh, I'm just here for a night or two, just passing through...\"");
+            try {
+                TimeUnit.SECONDS.sleep(3);
+            } catch(InterruptedException a) {
+            }
+            System.out.println("\"Then ye best be headed to the inn over there...\" he said, pointing at a d")
+        }
     }
 }
